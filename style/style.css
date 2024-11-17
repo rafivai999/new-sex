@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+
+
+
+
+  background-color: beige;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20 px;
+  font-weight: normal;
+
+  line-height: 1.6em;
+  margin: 0;
+}
+a{
+  text-decoration:none ;
+  color:black;
+}
+
+a:hover {
+
+  color:red;
+}
+a:active{
+  color:green;
+}
+a:visited {
+  color: violet
+}
+.button{
+  background-color:black ;
+  color:white;
+  padding: 10px;
+  border:none
+}
+
+.button:hover{
+  background-color:red;
+  color:lime
+}
+  
+
+
+.box-1 {
+  background-color: black;
+  color: white;
+
+  /*border-right: 5px red solid;
+    border-left: 15px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;*/
+
+  border: 5px red solid;
+
+  /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;*/
+
+  padding: 20px;
+  padding: 20px 5px 10px 20px;
+  padding: 30px 20px;
+
+  /* margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;*/
+
+  margin: 20px;
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+}
+
+.box-1 h1 {
+  font-family: tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  te  xt-transform: uppercase;
+  word-spacing: 0.2em;
+  letter-spacing: 0.2em;
+      
+ 
+}
+
+.box-1 p{
+text-align: justify;
+} 
+
+.box-2 {
+  border:1px dotted #333;
+  padding:20px;
+  margin: 20px;
+
+}
+
+.box-2 h1{
+  text-align: center;
+
+}
+
+.box-2 p{
+
+  padding-top: 20px;
+  text-align:justify;
+  line-height:1.4em;
+}
+
+.categories{
+  border: 1px solid;
+  margin: 20px;
+  border-radius:20px;
+  padding-left:20px;
+
+}
+
+.categories h2{
+
+  text-align:center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.categories ul{
+  padding:20px;
+  list-style:square;
+  list-style:none;
+   
+  
+}
+.categories ul li {
+
+  border-bottom:1px dotted #333;
+
+  
+}
+.my-from {
+  padding: 20px ;
+
+}
+
+.my-from .from-group{
+padding-bottom: 15px ;
+
+}
+.my-from input [type="text"],.my-from textarea {
+  
+padding: 8px;
+width: 60%;
+}
